@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Footer from "./Footer";
@@ -9,13 +9,23 @@ import "./App.css";
 
 export default function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Hero />
-      <ArtPortfolio />
-      <DevPortfolio />
-      <Contact />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          {/* Página principal */}
+          <Route path="/" element={<Hero />} />
+
+          {/* Portafolios separados */}
+          <Route path="/art" element={<ArtPortfolio />} />
+          <Route path="/dev" element={<DevPortfolio />} />
+
+          {/* Contacto */}
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+
+        <Footer />
+      </div>
+    </Router>
   );
 }
