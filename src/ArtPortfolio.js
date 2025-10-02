@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import imageGameplay from "./images/animation-image.png";
 import imageRigging from "./images/riggingreel-image.png";
+import "./App.css";
 
 export default function ArtPortfolio() {
   const projects = [
@@ -22,9 +23,9 @@ export default function ArtPortfolio() {
   ];
 
   return (
-    <section id="portfolio3d" className="py-5 bg-light">
+    <section id="portfolio3d" className="py-5">
       <Container>
-        <h2 className="fw-bold text-center mb-5">Portafolio Animación 3D</h2>
+        <h2 className="fw-bold text-center mb-5 mt-5">3D Animation</h2>
         <Row>
           {projects.map((p, index) => (
             <Col
