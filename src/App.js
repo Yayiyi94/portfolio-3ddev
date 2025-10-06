@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Contact from "./Contact";
 import ArtPortfolio from "./ArtPortfolio";
 import DevPortfolio from "./DevPortfolio";
+import Aboutme from "./Aboutme";
 import "./App.css";
 
 export default function App() {
@@ -13,14 +14,14 @@ export default function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          {/* Página principal */}
+          /* Homepage */
           <Route path="/" element={<Hero />} />
-
-          {/* Portafolios separados */}
+          /* Aboutme page */
+          <Route path="/about" element={<Aboutme />} />
+          /* Portfolios */
           <Route path="/art" element={<ArtPortfolio />} />
           <Route path="/dev" element={<DevPortfolio />} />
-
-          {/* Contacto */}
+          /* Contact */
           <Route path="/contact" element={<Contact />} />
         </Routes>
 

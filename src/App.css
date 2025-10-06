@@ -2,12 +2,8 @@
   text-align: center;
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 nav::after {
@@ -20,6 +16,11 @@ nav::after {
   background: url("./images/Papercut-v2.png") repeat-x;
   background-size: contain; /* ajusta la escala del PNG */
   pointer-events: none;
+}
+
+.navbarText a {
+  color: red;
+  text-decoration: none;
 }
 @keyframes fadeIn {
   from {
