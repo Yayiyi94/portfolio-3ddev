@@ -1,10 +1,26 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 export default function Footer() {
   return (
     <div className="Footer">
-      <h1>Hello from Footer</h1>
+      <footer className="fixed-bottom">
+        <div class="row m4 ">
+          <div class="col-6">
+            <p>
+              If you are interested, lets get in touch!
+              <br />
+              <a href="mailto:yadiratr94@gmail.com">yadiratr94@gmail.com</a>
+            </p>
+          </div>
+          <div class="col-6">
+            <p>
+              This website was coded with ❤ <br /> by Yadira De la Torre Ruiz,
+              and is
+              <a href="#"> open-sourced</a>.
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

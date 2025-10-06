@@ -6,7 +6,13 @@ import "./App.css";
 
 export default function Navigation() {
   return (
-    <Navbar expand="lg" bg="light" variant="light" fixed="top">
+    <Navbar
+      className="navbar-settings"
+      expand="lg"
+      bg="light"
+      variant="light"
+      fixed="top"
+    >
       <Container>
         <Navbar.Brand href="#home">Yadira</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
