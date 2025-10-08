@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import imageGameplay from "./images/animation-image.png";
 import imageRigging from "./images/riggingreel-image.png";
 import "./App.css";
@@ -24,6 +25,11 @@ export default function ArtPortfolio() {
 
   return (
     <section id="portfolio3d" className="py-5">
+      <Link to="/">
+        <Button variant="dark border" size="md" className="mt-4">
+          Back to home
+        </Button>
+      </Link>
       <Container>
         <h2 className="fw-bold text-center mb-5 mt-5">3D Animation</h2>
         <Row>

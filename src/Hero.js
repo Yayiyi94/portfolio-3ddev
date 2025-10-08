@@ -1,6 +1,4 @@
-import Navbar from "./Navbar";
 import { Container, Button } from "react-bootstrap";
-import ArtPortfolio from "./ArtPortfolio";
 import { Link } from "react-router-dom";
 import imageGirl from "./images/Captura de pantalla 2025-09-26 171123.png";
 
