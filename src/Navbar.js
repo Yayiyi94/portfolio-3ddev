@@ -14,7 +14,7 @@ export default function Navigation() {
       fixed="top"
     >
       <Container>
-        <Navbar.Brand href="#home">Yadira</Navbar.Brand>
+        <Navbar.Brand href="/">Yadira</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto navbarText">

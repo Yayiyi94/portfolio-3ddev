@@ -3,9 +3,9 @@ import "./App.css";
 export default function Footer() {
   return (
     <div className="Footer">
-      <footer className="fixed-bottom">
-        <div class="row m4 ">
-          <div class="col-6">
+      <footer className="">
+        <div class="row  ">
+          <div class="col-6 ">
             <p>
               If you are interested, lets get in touch!
               <br />
