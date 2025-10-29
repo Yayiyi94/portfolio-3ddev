@@ -95,3 +95,25 @@ footer::before {
   background-size: contain;
   pointer-events: none;
 }
+
+i {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.i-color-contact {
+  color: black;
+  transition: transform 0.3s ease;
+}
+
+a {
+  text-decoration: none;
+  color: #b597ab;
+  transition: font-size 0.3s ease;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}

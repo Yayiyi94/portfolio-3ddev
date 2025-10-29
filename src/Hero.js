@@ -16,7 +16,7 @@ export default function Hero() {
         </h1>
         <p className="lead mt-3">
           <i class="bi bi-display text-success"></i> My profesional Portfolio
-          about my two passions: the 3D world and computing{" "}
+          about my two current passions: the 3D art and tech world.
           <i class="bi bi-display text-danger"></i>
         </p>
         <Link to="/about">
