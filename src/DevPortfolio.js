@@ -134,6 +134,14 @@ export default function DevPortfolio() {
           ))}
         </Row>
       </Container>
+      <Link
+        to="https://drive.google.com/file/d/1xlrj0_fpE19Mceldc_hRXzBWCJQW4zWY/view?usp=sharing"
+        target="_blank"
+      >
+        <Button variant="dark border" size="lg" className="mt-4">
+          See My CV
+        </Button>
+      </Link>
     </section>
   );
 }

@@ -74,6 +74,22 @@ export default function Contact() {
             </Card.Text>
           </Card.Body>
         </Card>
+        <Link
+          to="https://drive.google.com/file/d/1OtXKIwWpf-fJ_heHxb4EGJYmXpz34tkz/view?usp=sharing"
+          target="_blank"
+        >
+          <Button variant="dark border" size="lg" className="m-4">
+            See My Art CV
+          </Button>
+        </Link>
+        <Link
+          to="https://drive.google.com/file/d/1xlrj0_fpE19Mceldc_hRXzBWCJQW4zWY/view?usp=sharing"
+          target="_blank"
+        >
+          <Button variant="dark border" size="lg" className="m-4">
+            See My Developer CV
+          </Button>
+        </Link>
       </Container>
     </section>
   );

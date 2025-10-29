@@ -58,6 +58,14 @@ export default function ArtPortfolio() {
           ))}
         </Row>
       </Container>
+      <Link
+        to="https://drive.google.com/file/d/1OtXKIwWpf-fJ_heHxb4EGJYmXpz34tkz/view?usp=sharing"
+        target="_blank"
+      >
+        <Button variant="dark border" size="lg" className="mt-4">
+          See My CV
+        </Button>
+      </Link>
     </section>
   );
 }

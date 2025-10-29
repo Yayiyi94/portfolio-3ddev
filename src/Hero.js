@@ -30,6 +30,11 @@ export default function Hero() {
               See 3D Portfolio
             </Button>
           </Link>
+          <Link to="/contact">
+            <Button variant="dark border" size="lg" className="m-4">
+              Contact me
+            </Button>
+          </Link>
           <Link to="/dev">
             <Button variant="dark border" size="md" className="mx-4">
               See Dev Portfolio
